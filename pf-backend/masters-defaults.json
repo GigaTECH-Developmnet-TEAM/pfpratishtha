@@ -1,0 +1,74 @@
+{
+ "loan_purpose": [
+  "Business expansion",
+  "Working capital",
+  "Shop / stock purchase",
+  "Home repair",
+  "Education",
+  "Medical",
+  "Marriage",
+  "Vehicle purchase",
+  "Agriculture",
+  "Personal need",
+  "Debt consolidation"
+ ],
+ "occupation": [
+  "Shopkeeper",
+  "Farmer",
+  "Salaried",
+  "Driver",
+  "Labour",
+  "Tailor",
+  "Teacher",
+  "Housewife",
+  "Student",
+  "Self-employed",
+  "Other"
+ ],
+ "relation": [
+  "Spouse",
+  "Son",
+  "Daughter",
+  "Father",
+  "Mother",
+  "Brother",
+  "Sister",
+  "Other"
+ ],
+ "designation": [
+  "Branch Manager",
+  "Team Leader",
+  "Collection Executive",
+  "Relationship Executive",
+  "Telecaller",
+  "Accountant",
+  "HR Executive",
+  "Field Officer",
+  "Other"
+ ],
+ "expense_head": [
+  "Rent",
+  "Electricity",
+  "Salary",
+  "Travel",
+  "Fuel",
+  "Stationery",
+  "Marketing",
+  "Repairs",
+  "Tea & refreshments",
+  "Internet / phone",
+  "Miscellaneous"
+ ],
+ "document_type": [
+  "Aadhaar",
+  "PAN",
+  "Voter ID",
+  "Driving licence",
+  "Passport",
+  "Electricity bill",
+  "Bank passbook",
+  "Photo",
+  "Signature",
+  "Cancelled cheque"
+ ]
+}

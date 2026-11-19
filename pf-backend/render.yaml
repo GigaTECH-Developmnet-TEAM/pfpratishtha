@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: pratishtha-finance
+    runtime: node
+    plan: starter
+    buildCommand: npm ci --omit=dev
+    startCommand: npm start
+    healthCheckPath: /api/health
+    domains:
+      - pratishtha.pro
+      - www.pratishtha.pro
+    disk: { name: data, mountPath: /data, sizeGB: 1 }
+    envVars:
+      - { key: NODE_ENV, value: production }
+      - { key: DB_PATH, value: /data/pratishtha.db }
+      - { key: ADMIN_MOBILE, value: "7233023547" }
+      - { key: ADMIN_PASSWORD, sync: false }
+      - { key: JWT_SECRET, generateValue: true }
+      - { key: DEFAULT_STAFF_PASSWORD, sync: false }
+      - { key: SEED_DEMO, value: "false" }
+      - { key: FACE_RP_ID, value: pratishtha.pro }
+      - { key: FACE_ORIGIN, value: "https://pratishtha.pro" }

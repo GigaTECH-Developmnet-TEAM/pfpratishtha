@@ -1,0 +1,763 @@
+{
+ "dsa": {
+  "id": "dsa",
+  "title": "DSA / Channel Partner Agreement",
+  "intro": "This Agreement is made on {{effective_date}} between {{company}}, a proprietorship having its Head Office at Lucknow, Uttar Pradesh (\"the Company\"), and {{party_name}}, {{city}}, represented by {{contact}} (\"the Partner\"). It is read together with the Company's Master Declaration & Terms of Service and sets out the terms on which the Partner refers customers to the Company.",
+  "recital": "The Company provides loan assistance and customer-support services in association with authorised banks, NBFCs and other service providers. The Partner wishes to refer prospective customers as a non-exclusive Direct Selling Agent, and the Company agrees to engage the Partner on the terms below.",
+  "term_months": 12,
+  "notice_days": 30,
+  "settlement_days": 0,
+  "clauses": [
+   {
+    "t": "Appointment and scope",
+    "b": "The Partner is appointed as a non-exclusive agent to (a) identify and refer prospective customers for loan, MSME, EMI-finance and insurance assistance, (b) help them with preliminary documentation, and (c) share product information issued by the Company. Each activity is permitted only where the necessary permission and partner contract exist. The Partner acts as an independent agent and not as an employee, partner or legal representative of the Company."
+   },
+   {
+    "t": "Authority limits",
+    "b": "The Partner has no authority to sanction or promise a loan, fix an interest rate, collect money in the Company's name except against an official Company receipt, or sign any contract, financial commitment or representation on the Company's behalf without the Company's written permission."
+   },
+   {
+    "t": "Code of conduct",
+    "b": "The Partner shall promote only services authorised by the Company and shall not quote false interest rates, promise guaranteed loans, announce fake offers or make any unfair promise. The Partner shall not collect or share personal or financial information without the customer's consent."
+   },
+   {
+    "t": "Prohibited acts",
+    "b": "The Partner shall not charge any fee to a customer, submit forged, false or incomplete documents, misuse customer data, or receive any loan amount or EMI in a personal account. The Partner is solely responsible for any fraud, false document or misleading promotion by the Partner or its team. Any breach is a ground for immediate suspension or termination."
+   },
+   {
+    "t": "Commission",
+    "b": "The Partner is entitled to commission of {{commission}}% on the disbursed loan amount of each lead referred by the Partner that is successfully converted and disbursed, as set out in the written Commission Schedule. Commission is payable only under that Schedule; basis of payment, eligibility, timelines, TDS/GST and any clawback shall be as stated in it."
+   },
+   {
+    "t": "Payment terms",
+    "b": "Commission is paid monthly after successful disbursal and subject to collection as per Company policy. No oral assurance creates any right to additional commission or payment."
+   },
+   {
+    "t": "Clawback",
+    "b": "If a referred loan is found to be fraudulent, or is cancelled within the cooling-off period, the commission paid on it shall be recovered or adjusted against future payouts."
+   },
+   {
+    "t": "Taxes",
+    "b": "Commission is paid after deduction of tax at source (TDS) and GST where applicable. The Partner is responsible for its own tax filings."
+   },
+   {
+    "t": "Confidentiality",
+    "b": "All customer data, processes and business information shared with the Partner shall be kept strictly confidential during and after the term of this Agreement."
+   },
+   {
+    "t": "Compliance",
+    "b": "The Partner shall comply with all applicable KYC/AML requirements and Company policies when referring and assisting customers, and shall give accurate details of its legal identity, registration and permissions (PAN / GST / Udyam where applicable)."
+   },
+   {
+    "t": "Term",
+    "b": "This Agreement is effective from {{effective_date}} for {{term_months}} months and may be renewed by mutual written consent."
+   },
+   {
+    "t": "Termination",
+    "b": "Either party may terminate this Agreement by giving {{notice_days}} days' written notice to the other. Termination does not affect obligations that have already arisen."
+   },
+   {
+    "t": "Status of the Company",
+    "b": "The Company is a proprietorship carrying on business as Pratishtha Finance Services (\"PFS\"). It is an independent financial services and customer-support business that operates under applicable law and the terms of its authorised bank, NBFC, insurance and other service-provider partners. The Company is not a bank and is not an RBI-registered NBFC. Udyam / MSME registration is not a licence for banking, lending, accepting public deposits or operating as an NBFC, and shall not be represented as one."
+   },
+   {
+    "t": "Regulated products",
+    "b": "Approval, interest rate, tenure, eligibility, disbursal and all other terms of any loan, card, EMI finance or insurance product are decided solely by the relevant authorised bank, NBFC or insurer (the \"Regulated Entity\"). The Company does not guarantee approval of any loan or product, and no person shall state or imply otherwise."
+   },
+   {
+    "t": "Deposits and returns",
+    "b": "Without specific written legal permission, the Company shall not be presented as a bank, NBFC or deposit-taking institution. The Company shall not accept unauthorised recurring deposits, fixed deposits, investments or public deposits, and no party shall promise any fixed or guaranteed return on behalf of the Company."
+   },
+   {
+    "t": "Handling of money",
+    "b": "Loan amounts and EMIs shall be paid only through the channel prescribed by the relevant Regulated Entity or through Company-issued receipts and official payment channels. No employee, agent or retailer of the Company shall receive any loan amount or EMI from a customer in a personal account, wallet or UPI handle."
+   },
+   {
+    "t": "Customer fees",
+    "b": "Before any service fee is charged to a customer, its purpose, amount and refund policy shall be disclosed to the customer in writing. No fee shall be charged that has not been so disclosed."
+   },
+   {
+    "t": "Customer data and privacy",
+    "b": "Personal and financial information shall be collected only for a lawful, clearly stated purpose and with the customer's consent. It shall not be disclosed to any unauthorised third party. Sharing with a Regulated Entity or service partner shall be in accordance with applicable law, the customer's consent and the relevant contract. Each party shall maintain reasonable security safeguards, restrict access to those who need it, keep proper records, and use, store, retain and delete data in line with applicable data-protection law."
+   },
+   {
+    "t": "Digital lending compliance",
+    "b": "Each party shall comply with the RBI Digital Lending Directions, 2025, applicable consumer-protection and data-protection laws, and the requirements of the relevant Regulated Entity, as in force from time to time."
+   },
+   {
+    "t": "Use of name and brand",
+    "b": "Neither party shall use the other's name, logo, documents or brand without the other's prior written permission, and the use of any PFS name, logo, documents or authorised material shall cease upon termination or expiry of this Agreement."
+   },
+   {
+    "t": "Assignment and transfer",
+    "b": "Neither party may transfer, assign or sub-contract this Agreement, or any right, commission or payment obligation under it, to any third party without the other party's prior written consent. If the Company undergoes a legal restructuring or a change of name or ownership, it shall give written notice to the Partner. Any transfer of this Agreement to another company, group entity or subsidiary shall follow the legal process required, the other party's consent and, where applicable, fresh customer consent. Customer information and financial records shall be transferred only for a lawful purpose, on proper grounds and in accordance with law. A transfer shall not extinguish any payment, confidentiality, grievance or statutory obligation that has already arisen."
+   },
+   {
+    "t": "Suspension and survival",
+    "b": "In the event of fraud, a data breach, unlawful activity or a serious breach of this Agreement, the Company may suspend or terminate it immediately in accordance with applicable law and this Agreement. After termination, pending payments, customer grievances, data-protection and confidentiality obligations shall continue to apply."
+   },
+   {
+    "t": "Grievance redressal",
+    "b": "Any customer, retailer, business associate, franchisee, employee or service partner may lodge a grievance. Contact: Email pratishthafinance@gmail.com, Website https://pratishtha.pro, Phone +91 72330 23547. The Company shall acknowledge and resolve grievances under its Grievance Policy and applicable law. Complaints relating to a bank or NBFC shall also be forwarded to that Regulated Entity's grievance redressal mechanism."
+   },
+   {
+    "t": "Governing law and disputes",
+    "b": "This Agreement is governed by the laws of India. The parties shall first try to resolve any dispute through mutual discussion and a written complaint. If the dispute remains unresolved, the courts of competent jurisdiction at Lucknow, Uttar Pradesh shall have jurisdiction in accordance with applicable law."
+   },
+   {
+    "t": "General",
+    "b": "This Agreement is the entire agreement between the parties on its subject and supersedes any oral assurance. No party acquires any right to additional commission or payment on the basis of an oral assurance. Any amendment must be in writing and signed by both parties. If any provision is held unenforceable, the remainder continues in force. By signing, each party confirms that it has read and understood this Agreement and accepts it voluntarily."
+   }
+  ]
+ },
+ "lender": {
+  "id": "lender",
+  "title": "Service Partner Agreement — Lending Partner (Bank / NBFC)",
+  "intro": "This Agreement is made on {{effective_date}} between {{company}}, a proprietorship having its Head Office at Lucknow, Uttar Pradesh (\"the Company\"), and {{party_name}} ({{party_type}}{{reg_line}}), {{city}}, represented by {{contact}} (\"the Lender\"). It is read together with the Company's Master Declaration & Terms of Service.",
+  "recital": "The Company operates the PFS Virtual Card programme through which customers access credit facilities funded by authorised banks and NBFCs. The Lender wishes to take part as a funding partner and the Company agrees to empanel the Lender on the terms below.",
+  "term_months": 24,
+  "notice_days": 60,
+  "settlement_days": 7,
+  "clauses": [
+   {
+    "t": "Appointment",
+    "b": "The Company empanels the Lender as a non-exclusive Lending Partner for the PFS Virtual Card programme(s): {{programmes}}."
+   },
+   {
+    "t": "Funding pool",
+    "b": "The Lender shall make available a funding pool of up to {{pool_limit}}. Card limits sanctioned by the Lender shall not, in total, exceed this pool."
+   },
+   {
+    "t": "Per-card limit",
+    "b": "No single card shall carry a limit above {{max_card_limit}} unless both parties agree in writing."
+   },
+   {
+    "t": "Credit decision",
+    "b": "Eligibility, credit limit and pricing of each card are decided solely by the Lender. The Company only collects the customer's application and consent and does not guarantee any approval or repayment."
+   },
+   {
+    "t": "Settlement with retailers",
+    "b": "Approved card purchases are settled to partner retailers through the Company platform. The Lender shall fund approved purchases within {{settlement_days}} working days of the settlement request."
+   },
+   {
+    "t": "Collections and remittance",
+    "b": "Customer repayments shall reach the Lender through the channel the Lender prescribes or through Company-issued receipts, and shall be remitted per the payout rules recorded on the platform, with a statement of every collection. No Company employee or retailer shall receive any amount in a personal account."
+   },
+   {
+    "t": "Fees and commission",
+    "b": "The Company's fee or commission for sourcing and servicing is as stated in the Payout Rules recorded on the platform from time to time and visible to the Lender in its dashboard. Payment terms, TDS/GST and any clawback shall be as stated in the written schedule."
+   },
+   {
+    "t": "Scope and responsibilities",
+    "b": "Each party shall provide only the services described in this Agreement. Each party is solely responsible for its own legal identity, registrations, permissions and statutory compliance, and the Lender shall give the Company accurate details of its legal identity, registration and authorisations."
+   },
+   {
+    "t": "Regulatory compliance",
+    "b": "The Lender confirms that it holds every licence and approval required for lending and shall comply with applicable RBI regulations, KYC/AML and fair-practice requirements, and shall inform the Company immediately of any change in its regulatory status."
+   },
+   {
+    "t": "Customer protection",
+    "b": "Both parties shall handle customer complaints fairly and promptly. The Company shall forward grievances about credit decisions to the Lender, which shall respond within a reasonable time."
+   },
+   {
+    "t": "Confidentiality",
+    "b": "Each party shall keep the other's business information, pricing and customer data confidential during and after the term of this Agreement."
+   },
+   {
+    "t": "Term",
+    "b": "This Agreement is effective from {{effective_date}} for {{term_months}} months and may be renewed by mutual written consent."
+   },
+   {
+    "t": "Termination",
+    "b": "Either party may terminate this Agreement by giving {{notice_days}} days' written notice. Cards already issued shall continue to be serviced until fully repaid."
+   },
+   {
+    "t": "Status of the Company",
+    "b": "The Company is a proprietorship carrying on business as Pratishtha Finance Services (\"PFS\"). It is an independent financial services and customer-support business that operates under applicable law and the terms of its authorised bank, NBFC, insurance and other service-provider partners. The Company is not a bank and is not an RBI-registered NBFC. Udyam / MSME registration is not a licence for banking, lending, accepting public deposits or operating as an NBFC, and shall not be represented as one."
+   },
+   {
+    "t": "Regulated products",
+    "b": "Approval, interest rate, tenure, eligibility, disbursal and all other terms of any loan, card, EMI finance or insurance product are decided solely by the relevant authorised bank, NBFC or insurer (the \"Regulated Entity\"). The Company does not guarantee approval of any loan or product, and no person shall state or imply otherwise."
+   },
+   {
+    "t": "Deposits and returns",
+    "b": "Without specific written legal permission, the Company shall not be presented as a bank, NBFC or deposit-taking institution. The Company shall not accept unauthorised recurring deposits, fixed deposits, investments or public deposits, and no party shall promise any fixed or guaranteed return on behalf of the Company."
+   },
+   {
+    "t": "Handling of money",
+    "b": "Loan amounts and EMIs shall be paid only through the channel prescribed by the relevant Regulated Entity or through Company-issued receipts and official payment channels. No employee, agent or retailer of the Company shall receive any loan amount or EMI from a customer in a personal account, wallet or UPI handle."
+   },
+   {
+    "t": "Customer fees",
+    "b": "Before any service fee is charged to a customer, its purpose, amount and refund policy shall be disclosed to the customer in writing. No fee shall be charged that has not been so disclosed."
+   },
+   {
+    "t": "Customer data and privacy",
+    "b": "Personal and financial information shall be collected only for a lawful, clearly stated purpose and with the customer's consent. It shall not be disclosed to any unauthorised third party. Sharing with a Regulated Entity or service partner shall be in accordance with applicable law, the customer's consent and the relevant contract. Each party shall maintain reasonable security safeguards, restrict access to those who need it, keep proper records, and use, store, retain and delete data in line with applicable data-protection law."
+   },
+   {
+    "t": "Digital lending compliance",
+    "b": "Each party shall comply with the RBI Digital Lending Directions, 2025, applicable consumer-protection and data-protection laws, and the requirements of the relevant Regulated Entity, as in force from time to time."
+   },
+   {
+    "t": "Use of name and brand",
+    "b": "Neither party shall use the other's name, logo, documents or brand without the other's prior written permission, and the use of any PFS name, logo, documents or authorised material shall cease upon termination or expiry of this Agreement."
+   },
+   {
+    "t": "Assignment and transfer",
+    "b": "Neither party may transfer, assign or sub-contract this Agreement, or any right, commission or payment obligation under it, to any third party without the other party's prior written consent. If the Company undergoes a legal restructuring or a change of name or ownership, it shall give written notice to the Lender. Any transfer of this Agreement to another company, group entity or subsidiary shall follow the legal process required, the other party's consent and, where applicable, fresh customer consent. Customer information and financial records shall be transferred only for a lawful purpose, on proper grounds and in accordance with law. A transfer shall not extinguish any payment, confidentiality, grievance or statutory obligation that has already arisen."
+   },
+   {
+    "t": "Suspension and survival",
+    "b": "In the event of fraud, a data breach, unlawful activity or a serious breach of this Agreement, the Company may suspend or terminate it immediately in accordance with applicable law and this Agreement. After termination, pending payments, customer grievances, data-protection and confidentiality obligations shall continue to apply."
+   },
+   {
+    "t": "Grievance redressal",
+    "b": "Any customer, retailer, business associate, franchisee, employee or service partner may lodge a grievance. Contact: Email pratishthafinance@gmail.com, Website https://pratishtha.pro, Phone +91 72330 23547. The Company shall acknowledge and resolve grievances under its Grievance Policy and applicable law. Complaints relating to a bank or NBFC shall also be forwarded to that Regulated Entity's grievance redressal mechanism."
+   },
+   {
+    "t": "Governing law and disputes",
+    "b": "This Agreement is governed by the laws of India. The parties shall first try to resolve any dispute through mutual discussion and a written complaint. If the dispute remains unresolved, the courts of competent jurisdiction at Lucknow, Uttar Pradesh shall have jurisdiction in accordance with applicable law."
+   },
+   {
+    "t": "General",
+    "b": "This Agreement is the entire agreement between the parties on its subject and supersedes any oral assurance. No party acquires any right to additional commission or payment on the basis of an oral assurance. Any amendment must be in writing and signed by both parties. If any provision is held unenforceable, the remainder continues in force. By signing, each party confirms that it has read and understood this Agreement and accepts it voluntarily."
+   }
+  ]
+ },
+ "retailer": {
+  "id": "retailer",
+  "title": "Retailer / Merchant Agreement",
+  "intro": "This Agreement is made on {{effective_date}} between {{company}}, a proprietorship having its Head Office at Lucknow, Uttar Pradesh (\"the Company\"), and {{party_name}}, {{address_line}}, represented by {{contact}} (\"the Retailer\"). It is read together with the Company's Master Declaration & Terms of Service.",
+  "recital": "The Company has launched the PFS Virtual Card for its customers, funded by authorised lending partners. The Retailer wishes to accept PFS Virtual Card payments for genuine purchases at its shop and the Company agrees to enrol the Retailer on the terms below.",
+  "term_months": 12,
+  "notice_days": 30,
+  "settlement_days": 3,
+  "clauses": [
+   {
+    "t": "Appointment",
+    "b": "The Retailer is enrolled as an Authorised Partner Retailer to accept PFS Virtual Card payments for goods and services sold at the shop address stated above, and shall promote only services authorised by the Company."
+   },
+   {
+    "t": "No unauthorised commitments",
+    "b": "The Retailer shall not make any contract, financial promise or representation in the Company's name without the Company's written permission, and shall not quote false interest rates, promise guaranteed loans or announce fake offers."
+   },
+   {
+    "t": "Commission",
+    "b": "The Retailer shall pay the Company commission of {{commission}}% on the value of each approved card sale, deducted at settlement, as set out in the written Commission Schedule. No oral assurance creates any right to additional commission or payment."
+   },
+   {
+    "t": "Settlement",
+    "b": "Approved card sales shall be settled to the Retailer's registered bank account within {{settlement_days}} working days of approval, after deducting commission and any amount withheld under this Agreement. The Retailer shall not receive any loan amount or EMI from a customer in a personal account."
+   },
+   {
+    "t": "Verification at sale",
+    "b": "The Retailer shall verify the card on the cardholder's unlocked app, take the compulsory live photo of the customer with the product and bill, and enter the genuine bill number and item details. A sale without this proof is not eligible for settlement."
+   },
+   {
+    "t": "Genuine sales only",
+    "b": "The Retailer shall not process fake or inflated bills, split a bill to avoid limits, or exchange a card payment for cash or non-listed items. The price for a card customer shall not exceed the price for a cash customer. The Retailer is solely responsible for any fraud, false document or misleading promotion by it or its staff."
+   },
+   {
+    "t": "Returns and refunds",
+    "b": "Returns and refunds on card sales shall be handled through the Company platform, and the refunded amount shall be adjusted against the next settlement."
+   },
+   {
+    "t": "Fraud and recovery",
+    "b": "If a sale is found to be fake, is disputed by the customer with evidence, or breaches this Agreement, the Company may withhold the settlement or recover the amount already paid from future settlements."
+   },
+   {
+    "t": "Customer service",
+    "b": "The Retailer shall treat cardholders fairly and shall display PFS branding supplied by the Company only for the purpose of the programme."
+   },
+   {
+    "t": "Taxes",
+    "b": "The Retailer is responsible for GST, invoices and all other taxes on its sales. The Company may deduct tax at source where the law requires."
+   },
+   {
+    "t": "Confidentiality",
+    "b": "The Retailer shall keep the programme terms, commission and Company information confidential. Customer information received at the time of sale may be used only to complete that sale and shall not be stored or shared without the customer's consent."
+   },
+   {
+    "t": "Term",
+    "b": "This Agreement is effective from {{effective_date}} for {{term_months}} months and may be renewed by mutual written consent."
+   },
+   {
+    "t": "Termination",
+    "b": "Either party may terminate this Agreement by giving {{notice_days}} days' written notice to the other. Termination does not affect obligations that have already arisen."
+   },
+   {
+    "t": "Status of the Company",
+    "b": "The Company is a proprietorship carrying on business as Pratishtha Finance Services (\"PFS\"). It is an independent financial services and customer-support business that operates under applicable law and the terms of its authorised bank, NBFC, insurance and other service-provider partners. The Company is not a bank and is not an RBI-registered NBFC. Udyam / MSME registration is not a licence for banking, lending, accepting public deposits or operating as an NBFC, and shall not be represented as one."
+   },
+   {
+    "t": "Regulated products",
+    "b": "Approval, interest rate, tenure, eligibility, disbursal and all other terms of any loan, card, EMI finance or insurance product are decided solely by the relevant authorised bank, NBFC or insurer (the \"Regulated Entity\"). The Company does not guarantee approval of any loan or product, and no person shall state or imply otherwise."
+   },
+   {
+    "t": "Deposits and returns",
+    "b": "Without specific written legal permission, the Company shall not be presented as a bank, NBFC or deposit-taking institution. The Company shall not accept unauthorised recurring deposits, fixed deposits, investments or public deposits, and no party shall promise any fixed or guaranteed return on behalf of the Company."
+   },
+   {
+    "t": "Handling of money",
+    "b": "Loan amounts and EMIs shall be paid only through the channel prescribed by the relevant Regulated Entity or through Company-issued receipts and official payment channels. No employee, agent or retailer of the Company shall receive any loan amount or EMI from a customer in a personal account, wallet or UPI handle."
+   },
+   {
+    "t": "Customer fees",
+    "b": "Before any service fee is charged to a customer, its purpose, amount and refund policy shall be disclosed to the customer in writing. No fee shall be charged that has not been so disclosed."
+   },
+   {
+    "t": "Customer data and privacy",
+    "b": "Personal and financial information shall be collected only for a lawful, clearly stated purpose and with the customer's consent. It shall not be disclosed to any unauthorised third party. Sharing with a Regulated Entity or service partner shall be in accordance with applicable law, the customer's consent and the relevant contract. Each party shall maintain reasonable security safeguards, restrict access to those who need it, keep proper records, and use, store, retain and delete data in line with applicable data-protection law."
+   },
+   {
+    "t": "Digital lending compliance",
+    "b": "Each party shall comply with the RBI Digital Lending Directions, 2025, applicable consumer-protection and data-protection laws, and the requirements of the relevant Regulated Entity, as in force from time to time."
+   },
+   {
+    "t": "Use of name and brand",
+    "b": "Neither party shall use the other's name, logo, documents or brand without the other's prior written permission, and the use of any PFS name, logo, documents or authorised material shall cease upon termination or expiry of this Agreement."
+   },
+   {
+    "t": "Assignment and transfer",
+    "b": "Neither party may transfer, assign or sub-contract this Agreement, or any right, commission or payment obligation under it, to any third party without the other party's prior written consent. If the Company undergoes a legal restructuring or a change of name or ownership, it shall give written notice to the Retailer. Any transfer of this Agreement to another company, group entity or subsidiary shall follow the legal process required, the other party's consent and, where applicable, fresh customer consent. Customer information and financial records shall be transferred only for a lawful purpose, on proper grounds and in accordance with law. A transfer shall not extinguish any payment, confidentiality, grievance or statutory obligation that has already arisen."
+   },
+   {
+    "t": "Suspension and survival",
+    "b": "In the event of fraud, a data breach, unlawful activity or a serious breach of this Agreement, the Company may suspend or terminate it immediately in accordance with applicable law and this Agreement. After termination, pending payments, customer grievances, data-protection and confidentiality obligations shall continue to apply."
+   },
+   {
+    "t": "Grievance redressal",
+    "b": "Any customer, retailer, business associate, franchisee, employee or service partner may lodge a grievance. Contact: Email pratishthafinance@gmail.com, Website https://pratishtha.pro, Phone +91 72330 23547. The Company shall acknowledge and resolve grievances under its Grievance Policy and applicable law. Complaints relating to a bank or NBFC shall also be forwarded to that Regulated Entity's grievance redressal mechanism."
+   },
+   {
+    "t": "Governing law and disputes",
+    "b": "This Agreement is governed by the laws of India. The parties shall first try to resolve any dispute through mutual discussion and a written complaint. If the dispute remains unresolved, the courts of competent jurisdiction at Lucknow, Uttar Pradesh shall have jurisdiction in accordance with applicable law."
+   },
+   {
+    "t": "General",
+    "b": "This Agreement is the entire agreement between the parties on its subject and supersedes any oral assurance. No party acquires any right to additional commission or payment on the basis of an oral assurance. Any amendment must be in writing and signed by both parties. If any provision is held unenforceable, the remainder continues in force. By signing, each party confirms that it has read and understood this Agreement and accepts it voluntarily."
+   }
+  ]
+ },
+ "client": {
+  "id": "client",
+  "title": "Client Service Agreement",
+  "intro": "This Agreement is made on {{effective_date}} between {{company}}, a proprietorship having its Head Office at Lucknow, Uttar Pradesh (\"the Company\"), and {{party_name}}, {{party_address}}, mobile {{party_mobile}} (\"the Client\"). It is read together with the Company's Master Declaration & Terms of Service.",
+  "recital": "The Client wishes to use the Company's financial assistance and customer-support services, and the Company agrees to provide them in association with authorised banks, NBFCs, insurers and other service providers, on the terms below.",
+  "term_months": 12,
+  "notice_days": 15,
+  "settlement_days": 0,
+  "clauses": [
+   {
+    "t": "Services",
+    "b": "Subject to the necessary permissions and partner contracts being in place, the Company may provide: (a) loan assistance and application support, including personal, business and MSME loan assistance; (b) financial goal planning and digital goal tracking; (c) information about, and referral to, financial products of authorised institutions; and (d) EMI finance and insurance assistance through an authorised partner."
+   },
+   {
+    "t": "No guarantee of approval",
+    "b": "The Company does not guarantee the approval of any loan or product. Final approval, interest rate, tenure, eligibility, disbursal and every other condition are decided solely by the relevant bank, NBFC or insurer (the \"Regulated Entity\"), and the Client is bound by that entity's terms and repayment obligations."
+   },
+   {
+    "t": "Client declarations",
+    "b": "The Client declares that (a) all information and documents provided are true and complete; (b) they are provided voluntarily and with the Client's consent; (c) the Client understands that approval is not guaranteed; and (d) the Client will comply with the applicable terms and payment obligations of the Regulated Entity."
+   },
+   {
+    "t": "Consent and KYC",
+    "b": "The Client consents to the Company collecting and verifying identity, address, income and bank details (KYC) and sharing them with the relevant Regulated Entity for the requested service. The Client also agrees to receive service messages and alerts by SMS, call or app notification about applications, EMIs and dues, and may withdraw consent for any non-essential communication at any time."
+   },
+   {
+    "t": "Service fees",
+    "b": "Any service fee will be disclosed to the Client before it is charged, together with its purpose, amount and refund policy. Agreed service fee, if any: {{fee_text}}. No fee that has not been disclosed in writing is payable."
+   },
+   {
+    "t": "Payments",
+    "b": "The Client shall pay loan amounts and EMIs only through the channel prescribed by the Regulated Entity or through the Company's official payment channels, and shall obtain a receipt. The Client shall not pay any employee, agent or retailer to a personal account, wallet or UPI handle."
+   },
+   {
+    "t": "Client obligations",
+    "b": "The Client shall inform the Company promptly of any change in contact, address or income details, shall not submit forged or misleading documents, and shall repay every loan on time as per the Regulated Entity's schedule. Delay may attract charges and affect the Client's credit record as provided by the Regulated Entity."
+   },
+   {
+    "t": "Term",
+    "b": "This Agreement is effective from {{effective_date}} for {{term_months}} months and is extended automatically until any service already started has been completed, unless it is ended earlier."
+   },
+   {
+    "t": "Termination",
+    "b": "Either party may end this Agreement by giving {{notice_days}} days' written notice. Ending it does not cancel any loan or product already sanctioned by a Regulated Entity, nor any repayment or payment obligation that has arisen."
+   },
+   {
+    "t": "Status of the Company",
+    "b": "The Company is a proprietorship carrying on business as Pratishtha Finance Services (\"PFS\"). It is an independent financial services and customer-support business that operates under applicable law and the terms of its authorised bank, NBFC, insurance and other service-provider partners. The Company is not a bank and is not an RBI-registered NBFC. Udyam / MSME registration is not a licence for banking, lending, accepting public deposits or operating as an NBFC, and shall not be represented as one."
+   },
+   {
+    "t": "Regulated products",
+    "b": "Approval, interest rate, tenure, eligibility, disbursal and all other terms of any loan, card, EMI finance or insurance product are decided solely by the relevant authorised bank, NBFC or insurer (the \"Regulated Entity\"). The Company does not guarantee approval of any loan or product, and no person shall state or imply otherwise."
+   },
+   {
+    "t": "Deposits and returns",
+    "b": "Without specific written legal permission, the Company shall not be presented as a bank, NBFC or deposit-taking institution. The Company shall not accept unauthorised recurring deposits, fixed deposits, investments or public deposits, and no party shall promise any fixed or guaranteed return on behalf of the Company."
+   },
+   {
+    "t": "Handling of money",
+    "b": "Loan amounts and EMIs shall be paid only through the channel prescribed by the relevant Regulated Entity or through Company-issued receipts and official payment channels. No employee, agent or retailer of the Company shall receive any loan amount or EMI from a customer in a personal account, wallet or UPI handle."
+   },
+   {
+    "t": "Customer fees",
+    "b": "Before any service fee is charged to a customer, its purpose, amount and refund policy shall be disclosed to the customer in writing. No fee shall be charged that has not been so disclosed."
+   },
+   {
+    "t": "Customer data and privacy",
+    "b": "Personal and financial information shall be collected only for a lawful, clearly stated purpose and with the customer's consent. It shall not be disclosed to any unauthorised third party. Sharing with a Regulated Entity or service partner shall be in accordance with applicable law, the customer's consent and the relevant contract. Each party shall maintain reasonable security safeguards, restrict access to those who need it, keep proper records, and use, store, retain and delete data in line with applicable data-protection law."
+   },
+   {
+    "t": "Digital lending compliance",
+    "b": "Each party shall comply with the RBI Digital Lending Directions, 2025, applicable consumer-protection and data-protection laws, and the requirements of the relevant Regulated Entity, as in force from time to time."
+   },
+   {
+    "t": "Use of name and brand",
+    "b": "Neither party shall use the other's name, logo, documents or brand without the other's prior written permission, and the use of any PFS name, logo, documents or authorised material shall cease upon termination or expiry of this Agreement."
+   },
+   {
+    "t": "Assignment and transfer",
+    "b": "Neither party may transfer, assign or sub-contract this Agreement, or any right, commission or payment obligation under it, to any third party without the other party's prior written consent. If the Company undergoes a legal restructuring or a change of name or ownership, it shall give written notice to the Client. Any transfer of this Agreement to another company, group entity or subsidiary shall follow the legal process required, the other party's consent and, where applicable, fresh customer consent. Customer information and financial records shall be transferred only for a lawful purpose, on proper grounds and in accordance with law. A transfer shall not extinguish any payment, confidentiality, grievance or statutory obligation that has already arisen."
+   },
+   {
+    "t": "Suspension and survival",
+    "b": "In the event of fraud, a data breach, unlawful activity or a serious breach of this Agreement, the Company may suspend or terminate it immediately in accordance with applicable law and this Agreement. After termination, pending payments, customer grievances, data-protection and confidentiality obligations shall continue to apply."
+   },
+   {
+    "t": "Grievance redressal",
+    "b": "Any customer, retailer, business associate, franchisee, employee or service partner may lodge a grievance. Contact: Email pratishthafinance@gmail.com, Website https://pratishtha.pro, Phone +91 72330 23547. The Company shall acknowledge and resolve grievances under its Grievance Policy and applicable law. Complaints relating to a bank or NBFC shall also be forwarded to that Regulated Entity's grievance redressal mechanism."
+   },
+   {
+    "t": "Governing law and disputes",
+    "b": "This Agreement is governed by the laws of India. The parties shall first try to resolve any dispute through mutual discussion and a written complaint. If the dispute remains unresolved, the courts of competent jurisdiction at Lucknow, Uttar Pradesh shall have jurisdiction in accordance with applicable law."
+   },
+   {
+    "t": "General",
+    "b": "This Agreement is the entire agreement between the parties on its subject and supersedes any oral assurance. No party acquires any right to additional commission or payment on the basis of an oral assurance. Any amendment must be in writing and signed by both parties. If any provision is held unenforceable, the remainder continues in force. By signing, each party confirms that it has read and understood this Agreement and accepts it voluntarily."
+   }
+  ]
+ },
+ "associate": {
+  "id": "associate",
+  "title": "Business Associate Agreement",
+  "intro": "This Agreement is made on {{effective_date}} between {{company}}, a proprietorship having its Head Office at Lucknow, Uttar Pradesh (\"the Company\"), and {{party_name}}, {{party_address}}, mobile {{party_mobile}}, ID no. {{party_id}} (\"the Associate\"). It is read together with the Company's Master Declaration & Terms of Service.",
+  "recital": "The Company wishes to widen its reach through local business associates, and the Associate wishes to support the Company's authorised services in {{territory}} on a non-exclusive basis, on the terms below.",
+  "term_months": 12,
+  "notice_days": 30,
+  "settlement_days": 0,
+  "clauses": [
+   {
+    "t": "Appointment and territory",
+    "b": "The Associate is appointed as a non-exclusive local Business Associate of the Company for {{territory}}. The Company may appoint other associates in the same area."
+   },
+   {
+    "t": "Role",
+    "b": "The Associate shall create awareness of the Company's authorised services, introduce prospective customers and help them with basic documentation. The Associate does not process, approve or sanction any loan or product."
+   },
+   {
+    "t": "Independent status",
+    "b": "The Associate acts as an independent business and not as an employee, partner or legal representative of the Company, and has no authority to bind the Company."
+   },
+   {
+    "t": "Authority limits",
+    "b": "The Associate shall not sanction or promise a loan, fix an interest rate, sign any contract or financial commitment, or make any representation in the Company's name without the Company's written permission."
+   },
+   {
+    "t": "Code of conduct",
+    "b": "The Associate shall promote only services authorised by the Company and shall not quote false interest rates, promise guaranteed loans, announce fake offers or make any unfair promise. The Associate is solely responsible for fraud, false documents or misleading promotion by the Associate or its team."
+   },
+   {
+    "t": "Handling of money",
+    "b": "The Associate shall not collect any loan amount, EMI or deposit from a customer in a personal account or in cash without an official Company receipt, and shall not charge any fee to a customer."
+   },
+   {
+    "t": "Commission",
+    "b": "The Associate is entitled to commission only as set out in the written Commission Schedule ({{fee_text}}). The basis, eligibility, time limits, TDS/GST and any clawback are as stated in that Schedule. No oral assurance creates any right to additional commission or payment."
+   },
+   {
+    "t": "Compliance and KYC",
+    "b": "The Associate shall follow the Company's KYC/AML and customer-consent requirements, shall give accurate details of its legal identity and registrations (PAN / GST / Udyam where applicable), and shall collect or share customer information only with the customer's consent."
+   },
+   {
+    "t": "Confidentiality",
+    "b": "All customer data, processes, pricing and business information of the Company shall be kept strictly confidential during and after this Agreement."
+   },
+   {
+    "t": "Term",
+    "b": "This Agreement is effective from {{effective_date}} for {{term_months}} months and may be renewed by mutual written consent."
+   },
+   {
+    "t": "Termination",
+    "b": "Either party may terminate this Agreement by giving {{notice_days}} days' written notice to the other. Termination does not affect obligations that have already arisen."
+   },
+   {
+    "t": "Status of the Company",
+    "b": "The Company is a proprietorship carrying on business as Pratishtha Finance Services (\"PFS\"). It is an independent financial services and customer-support business that operates under applicable law and the terms of its authorised bank, NBFC, insurance and other service-provider partners. The Company is not a bank and is not an RBI-registered NBFC. Udyam / MSME registration is not a licence for banking, lending, accepting public deposits or operating as an NBFC, and shall not be represented as one."
+   },
+   {
+    "t": "Regulated products",
+    "b": "Approval, interest rate, tenure, eligibility, disbursal and all other terms of any loan, card, EMI finance or insurance product are decided solely by the relevant authorised bank, NBFC or insurer (the \"Regulated Entity\"). The Company does not guarantee approval of any loan or product, and no person shall state or imply otherwise."
+   },
+   {
+    "t": "Deposits and returns",
+    "b": "Without specific written legal permission, the Company shall not be presented as a bank, NBFC or deposit-taking institution. The Company shall not accept unauthorised recurring deposits, fixed deposits, investments or public deposits, and no party shall promise any fixed or guaranteed return on behalf of the Company."
+   },
+   {
+    "t": "Customer fees",
+    "b": "Before any service fee is charged to a customer, its purpose, amount and refund policy shall be disclosed to the customer in writing. No fee shall be charged that has not been so disclosed."
+   },
+   {
+    "t": "Customer data and privacy",
+    "b": "Personal and financial information shall be collected only for a lawful, clearly stated purpose and with the customer's consent. It shall not be disclosed to any unauthorised third party. Sharing with a Regulated Entity or service partner shall be in accordance with applicable law, the customer's consent and the relevant contract. Each party shall maintain reasonable security safeguards, restrict access to those who need it, keep proper records, and use, store, retain and delete data in line with applicable data-protection law."
+   },
+   {
+    "t": "Digital lending compliance",
+    "b": "Each party shall comply with the RBI Digital Lending Directions, 2025, applicable consumer-protection and data-protection laws, and the requirements of the relevant Regulated Entity, as in force from time to time."
+   },
+   {
+    "t": "Use of name and brand",
+    "b": "Neither party shall use the other's name, logo, documents or brand without the other's prior written permission, and the use of any PFS name, logo, documents or authorised material shall cease upon termination or expiry of this Agreement."
+   },
+   {
+    "t": "Assignment and transfer",
+    "b": "Neither party may transfer, assign or sub-contract this Agreement, or any right, commission or payment obligation under it, to any third party without the other party's prior written consent. If the Company undergoes a legal restructuring or a change of name or ownership, it shall give written notice to the Associate. Any transfer of this Agreement to another company, group entity or subsidiary shall follow the legal process required, the other party's consent and, where applicable, fresh customer consent. Customer information and financial records shall be transferred only for a lawful purpose, on proper grounds and in accordance with law. A transfer shall not extinguish any payment, confidentiality, grievance or statutory obligation that has already arisen."
+   },
+   {
+    "t": "Suspension and survival",
+    "b": "In the event of fraud, a data breach, unlawful activity or a serious breach of this Agreement, the Company may suspend or terminate it immediately in accordance with applicable law and this Agreement. After termination, pending payments, customer grievances, data-protection and confidentiality obligations shall continue to apply."
+   },
+   {
+    "t": "Grievance redressal",
+    "b": "Any customer, retailer, business associate, franchisee, employee or service partner may lodge a grievance. Contact: Email pratishthafinance@gmail.com, Website https://pratishtha.pro, Phone +91 72330 23547. The Company shall acknowledge and resolve grievances under its Grievance Policy and applicable law. Complaints relating to a bank or NBFC shall also be forwarded to that Regulated Entity's grievance redressal mechanism."
+   },
+   {
+    "t": "Governing law and disputes",
+    "b": "This Agreement is governed by the laws of India. The parties shall first try to resolve any dispute through mutual discussion and a written complaint. If the dispute remains unresolved, the courts of competent jurisdiction at Lucknow, Uttar Pradesh shall have jurisdiction in accordance with applicable law."
+   },
+   {
+    "t": "General",
+    "b": "This Agreement is the entire agreement between the parties on its subject and supersedes any oral assurance. No party acquires any right to additional commission or payment on the basis of an oral assurance. Any amendment must be in writing and signed by both parties. If any provision is held unenforceable, the remainder continues in force. By signing, each party confirms that it has read and understood this Agreement and accepts it voluntarily."
+   }
+  ]
+ },
+ "employee": {
+  "id": "employee",
+  "title": "Employee / Agent Agreement",
+  "intro": "This Agreement is made on {{effective_date}} between {{company}}, a proprietorship having its Head Office at Lucknow, Uttar Pradesh (\"the Company\"), and {{party_name}}, {{party_address}}, mobile {{party_mobile}}, ID no. {{party_id}} (\"the Engaged Person\"), who is engaged as {{role_title}}. It is read together with the Company's Master Declaration & Terms of Service.",
+  "recital": "The Company engages the Engaged Person as {{role_title}} at {{territory}}, and the Engaged Person accepts the engagement, on the terms below.",
+  "term_months": 12,
+  "notice_days": 30,
+  "settlement_days": 0,
+  "clauses": [
+   {
+    "t": "Nature of engagement",
+    "b": "If the Engaged Person is engaged as an employee, the appointment letter and the Company's HR policies apply together with this Agreement. If the Engaged Person is engaged as a field agent, the engagement is on a principal-to-principal basis, does not create an employment relationship, and the agent is responsible for its own taxes and expenses."
+   },
+   {
+    "t": "Duties",
+    "b": "The Engaged Person shall perform the duties of {{role_title}} in {{territory}} diligently and honestly, follow the Company's lawful instructions and policies, and maintain accurate records of all work and customer interactions."
+   },
+   {
+    "t": "Remuneration",
+    "b": "Remuneration or commission is {{fee_text}}, as set out in the appointment letter or written Commission Schedule, and is paid subject to statutory deductions (including TDS and GST where applicable). No oral assurance creates any right to additional pay."
+   },
+   {
+    "t": "Authority limits",
+    "b": "The Engaged Person has no authority to sanction or promise a loan, fix an interest rate, make any financial promise, or sign any contract in the Company's name without written permission, and shall not quote false rates, promise guaranteed loans or announce fake offers."
+   },
+   {
+    "t": "Handling of money",
+    "b": "All money collected from customers shall be received only against an official Company receipt and deposited through the Company's prescribed channel on the same working day. The Engaged Person shall never receive any loan amount or EMI in a personal account, wallet or UPI handle, and shall not charge any customer an undisclosed fee."
+   },
+   {
+    "t": "KYC and customer conduct",
+    "b": "The Engaged Person shall follow the Company's KYC/AML and consent procedures, treat customers fairly and respectfully, and shall not submit forged, false or incomplete documents."
+   },
+   {
+    "t": "Confidentiality and data",
+    "b": "The Engaged Person shall keep all customer data, credentials, systems access and business information confidential during and after the engagement, use them only for authorised work, and shall not copy, export or share them without written permission."
+   },
+   {
+    "t": "Company property and brand",
+    "b": "Company property, documents, devices, ID cards, receipt books and brand material remain the property of the Company and shall be returned on request or on ending of the engagement. The brand shall be used only for authorised work."
+   },
+   {
+    "t": "Conflict of interest",
+    "b": "The Engaged Person shall disclose any personal interest in a customer or transaction and shall not, during the engagement, work for a competing business in a way that conflicts with the Company's interests."
+   },
+   {
+    "t": "Discipline and loss",
+    "b": "Misconduct, fraud, misappropriation, data misuse or breach of this Agreement may lead to suspension or termination and legal action. The Company may recover loss caused by the Engaged Person's proven misconduct, to the extent permitted by law."
+   },
+   {
+    "t": "Term",
+    "b": "This Agreement is effective from {{effective_date}} for {{term_months}} months and may be renewed by mutual written consent."
+   },
+   {
+    "t": "Termination",
+    "b": "Either party may terminate this Agreement by giving {{notice_days}} days' written notice to the other. Termination does not affect obligations that have already arisen."
+   },
+   {
+    "t": "Status of the Company",
+    "b": "The Company is a proprietorship carrying on business as Pratishtha Finance Services (\"PFS\"). It is an independent financial services and customer-support business that operates under applicable law and the terms of its authorised bank, NBFC, insurance and other service-provider partners. The Company is not a bank and is not an RBI-registered NBFC. Udyam / MSME registration is not a licence for banking, lending, accepting public deposits or operating as an NBFC, and shall not be represented as one."
+   },
+   {
+    "t": "Regulated products",
+    "b": "Approval, interest rate, tenure, eligibility, disbursal and all other terms of any loan, card, EMI finance or insurance product are decided solely by the relevant authorised bank, NBFC or insurer (the \"Regulated Entity\"). The Company does not guarantee approval of any loan or product, and no person shall state or imply otherwise."
+   },
+   {
+    "t": "Deposits and returns",
+    "b": "Without specific written legal permission, the Company shall not be presented as a bank, NBFC or deposit-taking institution. The Company shall not accept unauthorised recurring deposits, fixed deposits, investments or public deposits, and no party shall promise any fixed or guaranteed return on behalf of the Company."
+   },
+   {
+    "t": "Customer fees",
+    "b": "Before any service fee is charged to a customer, its purpose, amount and refund policy shall be disclosed to the customer in writing. No fee shall be charged that has not been so disclosed."
+   },
+   {
+    "t": "Customer data and privacy",
+    "b": "Personal and financial information shall be collected only for a lawful, clearly stated purpose and with the customer's consent. It shall not be disclosed to any unauthorised third party. Sharing with a Regulated Entity or service partner shall be in accordance with applicable law, the customer's consent and the relevant contract. Each party shall maintain reasonable security safeguards, restrict access to those who need it, keep proper records, and use, store, retain and delete data in line with applicable data-protection law."
+   },
+   {
+    "t": "Digital lending compliance",
+    "b": "Each party shall comply with the RBI Digital Lending Directions, 2025, applicable consumer-protection and data-protection laws, and the requirements of the relevant Regulated Entity, as in force from time to time."
+   },
+   {
+    "t": "Use of name and brand",
+    "b": "Neither party shall use the other's name, logo, documents or brand without the other's prior written permission, and the use of any PFS name, logo, documents or authorised material shall cease upon termination or expiry of this Agreement."
+   },
+   {
+    "t": "Assignment and transfer",
+    "b": "Neither party may transfer, assign or sub-contract this Agreement, or any right, commission or payment obligation under it, to any third party without the other party's prior written consent. If the Company undergoes a legal restructuring or a change of name or ownership, it shall give written notice to the Engaged Person. Any transfer of this Agreement to another company, group entity or subsidiary shall follow the legal process required, the other party's consent and, where applicable, fresh customer consent. Customer information and financial records shall be transferred only for a lawful purpose, on proper grounds and in accordance with law. A transfer shall not extinguish any payment, confidentiality, grievance or statutory obligation that has already arisen."
+   },
+   {
+    "t": "Suspension and survival",
+    "b": "In the event of fraud, a data breach, unlawful activity or a serious breach of this Agreement, the Company may suspend or terminate it immediately in accordance with applicable law and this Agreement. After termination, pending payments, customer grievances, data-protection and confidentiality obligations shall continue to apply."
+   },
+   {
+    "t": "Grievance redressal",
+    "b": "Any customer, retailer, business associate, franchisee, employee or service partner may lodge a grievance. Contact: Email pratishthafinance@gmail.com, Website https://pratishtha.pro, Phone +91 72330 23547. The Company shall acknowledge and resolve grievances under its Grievance Policy and applicable law. Complaints relating to a bank or NBFC shall also be forwarded to that Regulated Entity's grievance redressal mechanism."
+   },
+   {
+    "t": "Governing law and disputes",
+    "b": "This Agreement is governed by the laws of India. The parties shall first try to resolve any dispute through mutual discussion and a written complaint. If the dispute remains unresolved, the courts of competent jurisdiction at Lucknow, Uttar Pradesh shall have jurisdiction in accordance with applicable law."
+   },
+   {
+    "t": "General",
+    "b": "This Agreement is the entire agreement between the parties on its subject and supersedes any oral assurance. No party acquires any right to additional commission or payment on the basis of an oral assurance. Any amendment must be in writing and signed by both parties. If any provision is held unenforceable, the remainder continues in force. By signing, each party confirms that it has read and understood this Agreement and accepts it voluntarily."
+   }
+  ]
+ },
+ "franchise": {
+  "id": "franchise",
+  "title": "Branch / Franchise Agreement",
+  "intro": "This Agreement is made on {{effective_date}} between {{company}}, a proprietorship having its Head Office at Lucknow, Uttar Pradesh (\"the Company\"), and {{party_name}}, {{party_address}}, mobile {{party_mobile}} (\"the Franchisee\"). It is read together with the Company's Master Declaration & Terms of Service.",
+  "recital": "The Company wishes to extend its authorised services through a PFS branch at {{territory}}, and the Franchisee wishes to operate that branch under the PFS name on the terms below.",
+  "term_months": 36,
+  "notice_days": 90,
+  "settlement_days": 0,
+  "clauses": [
+   {
+    "t": "Grant",
+    "b": "The Company grants the Franchisee a non-exclusive, non-transferable right to operate a PFS branch at {{party_address}} within {{territory}} and to offer only those services that the Company has authorised in writing and for which the necessary permissions exist. No sub-franchise is permitted."
+   },
+   {
+    "t": "Ownership of brand",
+    "b": "The PFS name, logo, forms, processes and platform remain the sole property of the Company. The Franchisee shall use them only as the Company directs and acquires no ownership in them."
+   },
+   {
+    "t": "Fees and revenue share",
+    "b": "The Franchisee shall pay the fees and revenue share set out in the Company's written schedule ({{fee_text}}). A refundable security deposit, if any ({{amount_text}}), is held on the terms of that schedule. Any amount that the Franchisee charges a customer must first be disclosed to the customer and approved by the Company."
+   },
+   {
+    "t": "Operating standards",
+    "b": "The Franchisee shall operate the branch to the Company's standards for premises, signage, staff conduct, customer service, record keeping and working hours, and shall display the grievance contact prominently."
+   },
+   {
+    "t": "Handling of money",
+    "b": "All customer money shall be received only against official Company receipts and routed through the Company's systems and prescribed channels. The Franchisee and its staff shall never receive any loan amount or EMI in a personal account, wallet or UPI handle."
+   },
+   {
+    "t": "Technology and data",
+    "b": "The Franchisee shall use only the Company's platform and approved tools, keep user credentials secure, and restrict customer-data access to authorised staff. Customer data belongs to the customer and the Company; the Franchisee holds it only as a custodian for the branch's authorised work."
+   },
+   {
+    "t": "Staff and agents",
+    "b": "The Franchisee is solely responsible for its own staff, their conduct, wages and statutory compliance, and for any fraud, false document or misleading promotion by them. Its staff shall be KYC-verified and trained as the Company requires."
+   },
+   {
+    "t": "Audit and inspection",
+    "b": "The Company may inspect the branch, its records and cash handling, and audit its transactions at any time on reasonable notice, and the Franchisee shall cooperate and rectify any gap the Company identifies."
+   },
+   {
+    "t": "Compliance",
+    "b": "The Franchisee shall hold every local licence and registration the branch needs, comply with all applicable laws, KYC/AML requirements and Company policies, and report any complaint, fraud or incident to the Company promptly."
+   },
+   {
+    "t": "Restrictions",
+    "b": "During the term and for six months afterwards, to the extent permitted by law, the Franchisee shall not use the Company's customer data or confidential information to solicit the Company's customers for any competing service."
+   },
+   {
+    "t": "Confidentiality",
+    "b": "All business information, pricing, processes and customer data of the Company shall be kept strictly confidential during and after this Agreement."
+   },
+   {
+    "t": "Term and renewal",
+    "b": "This Agreement is effective from {{effective_date}} for {{term_months}} months and may be renewed by mutual written consent."
+   },
+   {
+    "t": "Termination and wind-down",
+    "b": "Either party may terminate this Agreement by giving {{notice_days}} days' written notice. On ending, the Franchisee shall stop using the PFS name and brand, hand over all customer records, cash, receipts, devices and material, cooperate in transferring customer service, and settle all dues. Customer obligations and complaints that arose earlier continue to be handled."
+   },
+   {
+    "t": "Status of the Company",
+    "b": "The Company is a proprietorship carrying on business as Pratishtha Finance Services (\"PFS\"). It is an independent financial services and customer-support business that operates under applicable law and the terms of its authorised bank, NBFC, insurance and other service-provider partners. The Company is not a bank and is not an RBI-registered NBFC. Udyam / MSME registration is not a licence for banking, lending, accepting public deposits or operating as an NBFC, and shall not be represented as one."
+   },
+   {
+    "t": "Regulated products",
+    "b": "Approval, interest rate, tenure, eligibility, disbursal and all other terms of any loan, card, EMI finance or insurance product are decided solely by the relevant authorised bank, NBFC or insurer (the \"Regulated Entity\"). The Company does not guarantee approval of any loan or product, and no person shall state or imply otherwise."
+   },
+   {
+    "t": "Deposits and returns",
+    "b": "Without specific written legal permission, the Company shall not be presented as a bank, NBFC or deposit-taking institution. The Company shall not accept unauthorised recurring deposits, fixed deposits, investments or public deposits, and no party shall promise any fixed or guaranteed return on behalf of the Company."
+   },
+   {
+    "t": "Customer fees",
+    "b": "Before any service fee is charged to a customer, its purpose, amount and refund policy shall be disclosed to the customer in writing. No fee shall be charged that has not been so disclosed."
+   },
+   {
+    "t": "Customer data and privacy",
+    "b": "Personal and financial information shall be collected only for a lawful, clearly stated purpose and with the customer's consent. It shall not be disclosed to any unauthorised third party. Sharing with a Regulated Entity or service partner shall be in accordance with applicable law, the customer's consent and the relevant contract. Each party shall maintain reasonable security safeguards, restrict access to those who need it, keep proper records, and use, store, retain and delete data in line with applicable data-protection law."
+   },
+   {
+    "t": "Digital lending compliance",
+    "b": "Each party shall comply with the RBI Digital Lending Directions, 2025, applicable consumer-protection and data-protection laws, and the requirements of the relevant Regulated Entity, as in force from time to time."
+   },
+   {
+    "t": "Use of name and brand",
+    "b": "Neither party shall use the other's name, logo, documents or brand without the other's prior written permission, and the use of any PFS name, logo, documents or authorised material shall cease upon termination or expiry of this Agreement."
+   },
+   {
+    "t": "Assignment and transfer",
+    "b": "Neither party may transfer, assign or sub-contract this Agreement, or any right, commission or payment obligation under it, to any third party without the other party's prior written consent. If the Company undergoes a legal restructuring or a change of name or ownership, it shall give written notice to the Franchisee. Any transfer of this Agreement to another company, group entity or subsidiary shall follow the legal process required, the other party's consent and, where applicable, fresh customer consent. Customer information and financial records shall be transferred only for a lawful purpose, on proper grounds and in accordance with law. A transfer shall not extinguish any payment, confidentiality, grievance or statutory obligation that has already arisen."
+   },
+   {
+    "t": "Suspension and survival",
+    "b": "In the event of fraud, a data breach, unlawful activity or a serious breach of this Agreement, the Company may suspend or terminate it immediately in accordance with applicable law and this Agreement. After termination, pending payments, customer grievances, data-protection and confidentiality obligations shall continue to apply."
+   },
+   {
+    "t": "Grievance redressal",
+    "b": "Any customer, retailer, business associate, franchisee, employee or service partner may lodge a grievance. Contact: Email pratishthafinance@gmail.com, Website https://pratishtha.pro, Phone +91 72330 23547. The Company shall acknowledge and resolve grievances under its Grievance Policy and applicable law. Complaints relating to a bank or NBFC shall also be forwarded to that Regulated Entity's grievance redressal mechanism."
+   },
+   {
+    "t": "Governing law and disputes",
+    "b": "This Agreement is governed by the laws of India. The parties shall first try to resolve any dispute through mutual discussion and a written complaint. If the dispute remains unresolved, the courts of competent jurisdiction at Lucknow, Uttar Pradesh shall have jurisdiction in accordance with applicable law."
+   },
+   {
+    "t": "General",
+    "b": "This Agreement is the entire agreement between the parties on its subject and supersedes any oral assurance. No party acquires any right to additional commission or payment on the basis of an oral assurance. Any amendment must be in writing and signed by both parties. If any provision is held unenforceable, the remainder continues in force. By signing, each party confirms that it has read and understood this Agreement and accepts it voluntarily."
+   }
+  ]
+ }
+}
