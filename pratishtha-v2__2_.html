@@ -5256,8 +5256,9 @@ async function syncPush(){
     const sp=syncSpec(m.coll);const r=sp.get().find(x=>String(x.id)===String(m.from));
     if(r){r.id=m.to;const snap=SYNC.snap[m.coll];delete snap[m.from];snap[m.to]=JSON.stringify(r);}
   });
-  if(res.rejected&&res.rejected.length){
-    T('⚠️ '+res.rejected.length+' change(s) were not allowed by the server: '+res.rejected[0].reason,'tw');
+  const rjAll=(res.rejected||[]).filter(r=>!(String(r.id)==='_'||/^acc_/.test(String(r.coll))));   // whole-book settings blobs (accounting books, policy) are CEO/accountant-only: other roles' local copies are silently ignored
+  if(rjAll.length){
+    T('⚠️ '+rjAll.length+' change(s) were not allowed by the server: '+rjAll[0].reason,'tw');
     await syncPull(true);syncRefreshView(true);
   }
   return true;
@@ -13805,6 +13806,75 @@ window.rcDash=async function(){
     <div class="card" style="margin-top:12px"><div class="chd"><div class="ct">📋 Front-desk workflow</div></div><div class="cb" style="font-size:12px;line-height:1.7"><b>1.</b> Greet the visitor and <b>Check-in</b> — a token is issued.<br><b>2.</b> Pick who they want to meet — that staff member gets a notification.<br><b>3.</b> When staff calls them in tap <b>With staff</b>; when finished tap <b>Done</b>.<br><b>4.</b> Loan or savings enquiry? Tap <b>Make lead</b> so sales can follow up.<br><b>5.</b> Booked visitors: tap <b>Arrived</b> on their appointment.<br><b>6.</b> Phone calls: <b>Message</b> → pass it on → <b>Mark closed</b> after the call-back.<br><span style="color:var(--gray5)">Cash is never taken at the front desk — send EMI payers to the Collection Executive.</span></div></div>`;return true;};
   draw();startTimer(async()=>{if(CURRENT_PAGE==='dashboard'&&USER&&USER.role==='rc'){await refresh();draw();}else clearInterval(FD_TIMER);});
 };
+})();
+
+// ───────── OPS20: New-customer onboarding — visible button, strict validation, duplicate checks, Save & Add Another ─────────
+(function(){
+  const canAdd=()=>{const r=(typeof USER!=='undefined'&&USER&&USER.role)||'ceo';return r==='ceo'||hasPerm(r,'create_customers');};
+  const g=id=>{const e=document.getElementById(id);return e?String(e.value||'').trim():'';};
+  const bad=m=>{T(m,'te');return false;};
+  const MOB=/^[6-9]\d{9}$/;
+  // 1) permission gate + branch list + live hints when the form opens
+  const oOM20=OM;
+  OM=function(id){
+    if(id==='m-addcust'&&!canAdd()){T('You do not have permission to add customers','tw');return;}
+    oOM20(id);
+    if(id==='m-addcust'){
+      try{
+        const z=document.getElementById('nc-zone');
+        if(z&&typeof DBRANCHES!=='undefined'){const have=[...z.options].map(o=>o.value.toLowerCase());
+          DBRANCHES.filter(b=>b&&b.name&&(b.status||'active')==='active').forEach(b=>{const city=String(b.city||b.name).toLowerCase();if(!have.some(h=>h.includes(city)||h===String(b.name).toLowerCase())){z.add(new Option(b.name,b.name));have.push(String(b.name).toLowerCase());}});
+          const mine=String((USER&&USER.zone)||'').toLowerCase();if(mine&&mine!=='ho'){const o=[...z.options].find(o=>o.value.toLowerCase().includes(mine));if(o)z.value=o.value;}}
+        const dob=document.getElementById('nc-dob');if(dob){dob.max=tdy();}
+        [['nc-aa','aadhaar'],['nc-pan','pan']].forEach(([i,k])=>{const e=document.getElementById(i);if(e&&!e.__h){e.__h=1;e.addEventListener('input',()=>{try{idHint(e,k)}catch(x){}});}});
+        const ifs=document.getElementById('nc-ifsc');if(ifs&&!ifs.__h){ifs.__h=1;ifs.addEventListener('input',()=>{ifs.value=ifs.value.toUpperCase();try{idHint(ifs,'ifsc')}catch(x){}});}
+        const pn=document.getElementById('nc-pan');if(pn&&!pn.__u){pn.__u=1;pn.addEventListener('input',()=>{pn.value=pn.value.toUpperCase();});}
+      }catch(e){}
+    }
+  };
+  window.OM=OM;
+  // 2) strict validation (same rules the server enforces, with clear messages)
+  const v0=ncValidate;
+  ncValidate=function(){
+    const nm=g('nc-nm');
+    if(nm.length<3)return bad('Enter the full name (at least 3 characters)');
+    if(nm.length>80||!/^[A-Za-zऀ-ॿ][A-Za-zऀ-ॿ .'\-]*$/.test(nm))return bad('Name can have only letters, spaces and . \' -');
+    if(!MOB.test(g('nc-mob')))return bad('Mobile must be 10 digits starting with 6, 7, 8 or 9');
+    if(g('nc-mob2')&&!MOB.test(g('nc-mob2')))return bad('Alternate mobile must be 10 digits starting with 6–9');
+    if(g('nc-mob2')&&g('nc-mob2')===g('nc-mob'))return bad('Alternate mobile must be different from the main mobile');
+    if(g('nc-refmob')&&!MOB.test(g('nc-refmob')))return bad('Reference mobile must be 10 digits starting with 6–9');
+    const dob=g('nc-dob');
+    if(dob){const d=new Date(dob+'T00:00:00'),t=new Date(tdy()+'T00:00:00');if(isNaN(d)||d>t)return bad('Date of birth is not valid');let age=t.getFullYear()-d.getFullYear();if(t.getMonth()<d.getMonth()||(t.getMonth()===d.getMonth()&&t.getDate()<d.getDate()))age--;if(age<18)return bad('Customer must be at least 18 years old');if(age>100)return bad('Date of birth is not valid');}
+    const inc=g('nc-income');if(inc!==''&&(!(+inc>=0)||+inc>1e8))return bad('Monthly income is not valid');
+    const live=DC.filter(c=>c.status!=='deleted');
+    const aa=g('nc-aa');
+    if(aa){const r=aadhaarCheckC(aa);if(!r.ok)return bad('Aadhaar: '+r.reason);const d=aa.replace(/\D/g,'');if(live.some(c=>String(c.aadhaar||'').replace(/\D/g,'')===d))return bad('This Aadhaar is already registered to another customer');}
+    const pan=g('nc-pan');
+    if(pan){const r=panCheckC(pan);if(!r.ok)return bad('PAN: '+r.reason);if(live.some(c=>String(c.pan||'').toUpperCase()===r.pan))return bad('This PAN is already registered to another customer');}
+    const pin=g('nc-pin');if(pin&&!/^[1-9]\d{5}$/.test(pin))return bad('Pincode must be 6 digits');
+    const ifs=g('nc-ifsc'),acc=g('nc-bankacc');
+    if(ifs&&!ifscCheckC(ifs))return bad('IFSC looks like SBIN0004521');
+    if(acc&&!/^\d{9,18}$/.test(acc))return bad('Bank account number must be 9–18 digits');
+    if((acc&&!ifs)||(ifs&&!acc))return bad('Enter both the bank account number and the IFSC code');
+    return v0();
+  };
+  // 3) saveCust: block double-taps, support "Save & Add Another"
+  const sc0=saveCust;let busy=false;
+  saveCust=async function(){
+    if(busy)return;busy=true;const again=!!window.__ncAgain;window.__ncAgain=false;
+    try{const n=DC.length;await sc0();if(again&&DC.length>n){setTimeout(()=>OM('m-addcust'),150);}}finally{busy=false;}
+  };
+  window.saveCust=saveCust;
+  window.saveCustAnother=function(){window.__ncAgain=true;saveCust();};
+  (function(){const row=document.querySelector('#m-addcust .brow');if(row&&!document.getElementById('nc-again')){const b=document.createElement('button');b.id='nc-again';b.className='btn b-out';b.style.cssText='flex:1.4;font-size:12px';b.textContent='➕ Save & Add Another';b.setAttribute('onclick','saveCustAnother()');row.insertBefore(b,row.lastElementChild);}})();
+  // 4) clear, labelled "Add New Customer" button on the Customers page (for roles that may add)
+  const lc0=PG_LOADERS.customers;
+  PG_LOADERS.customers=async function(){
+    const r=await lc0.apply(this,arguments);
+    try{const C=document.getElementById('content');if(C&&canAdd()&&!document.getElementById('nc-open-btn'))C.insertAdjacentHTML('afterbegin','<button id="nc-open-btn" class="btn b-green btn-w" style="margin-bottom:10px;font-size:13px" onclick="OM(\'m-addcust\')">➕ Add New Customer</button>');}catch(e){}
+    return r;
+  };
+  if(typeof ldCusts==='function'){ldCusts=PG_LOADERS.customers;}
 })();
 </script>
 </body>
